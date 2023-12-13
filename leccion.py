@@ -35,5 +35,5 @@ print("\nVariacion del PIB %:")
 for var_pib in var:
     print(var_pib)
 
-df = pd.DataFrame({'Fecha': fechas, 'PIB Anual': pib, 'Var. PIB %': var})
+df = pd.DataFrame({'Fecha': fechas, 'PIB Anual': pib, 'Var.PIB %': var})
 df.to_csv('Date.csv', index=False)
